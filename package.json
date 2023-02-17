@@ -1,0 +1,30 @@
+{
+  "name": "npmpublishtest",
+  "version": "1.0.0",
+  "description": "test with npm",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboulmagdApp/testnpmpublish.git"
+  },
+  "keywords": [
+    "test npm publish"
+  ],
+  "author": "mohamed aboulmagd<aboulmagd@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aboulmagdApp/testnpmpublish/issues"
+  },
+  "homepage": "https://github.com/aboulmagdApp/testnpmpublish#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
